@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "pg": "npm:pg@8.11.3",
+    "drizzle-orm": "npm:drizzle-orm@0.29.1",
+    "drizzle-orm/": "npm:/drizzle-orm@0.29.1/",
+    "express": "npm:express@4.18.2"
+  }
+}
