@@ -2,6 +2,7 @@ import pg from "pg";
 import { drizzle } from "drizzle-orm/node-postgres";
 import express from "express";
 import { notes } from "./schema.js";
+import process from "node:process";
 
 const { Pool } = pg;
 const connectionString = process.env.POOLER_URL;
